@@ -1,0 +1,132 @@
+{
+    "contact": {
+        "location": "Maroc",
+        "email": "moujtahidadam5@gmail.com"
+    },
+    "social": [
+        {
+            "label": "GitHub",
+            "href": "https://github.com/"
+        },
+        {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/adam-moujtahid-0416b019a"
+        }
+    ],
+    "stack": {
+        "frontend": [
+            {
+                "name": "React",
+                "icon": "/stack/react.svg",
+                "featured": true
+            },
+            {
+                "name": "Tailwind CSS",
+                "icon": "/stack/tailwindcss.svg",
+                "featured": true
+            },
+            {
+                "name": "Bootstrap",
+                "icon": "/stack/bootstrap.svg"
+            },
+            {
+                "name": "Framer Motion",
+                "icon": "/stack/framermotion.svg"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "/stack/javascript.svg"
+            },
+            {
+                "name": "HTML5",
+                "icon": "/stack/html5.svg"
+            },
+            {
+                "name": "CSS3",
+                "icon": "/stack/css3.svg"
+            }
+        ],
+        "backend": [
+            {
+                "name": "Node.js",
+                "icon": "/stack/nodejs.svg"
+            },
+            {
+                "name": "PHP",
+                "icon": "/stack/php.svg"
+            },
+            {
+                "name": "Python",
+                "icon": "/stack/python.svg"
+            },
+            {
+                "name": "Django",
+                "icon": "/stack/django.svg"
+            },
+            {
+                "name": "Symfony",
+                "icon": "/stack/symfony.svg"
+            }
+        ],
+        "database": [
+            {
+                "name": "PostgreSQL",
+                "icon": "/stack/postgresql.svg",
+                "featured": true
+            },
+            {
+                "name": "MySQL",
+                "icon": "/stack/mysql.svg",
+                "featured": true
+            },
+            {
+                "name": "MongoDB",
+                "icon": "/stack/mongodb.svg"
+            }
+        ],
+        "tools": [
+            {
+                "name": "Git",
+                "icon": "/stack/git.svg"
+            },
+            {
+                "name": "Vercel",
+                "icon": "/stack/vercel.svg"
+            },
+            {
+                "name": "Tauri",
+                "icon": "/stack/tauri.svg"
+            },
+            {
+                "name": "Unix",
+                "icon": "/stack/tux.svg"
+            },
+            {
+                "name": "Bash",
+                "icon": "/stack/bash.svg"
+            }
+        ],
+        "programming": [
+            {
+                "name": "C",
+                "icon": "/stack/c.svg"
+            },
+            {
+                "name": "C++",
+                "icon": "/stack/cpp.svg"
+            },
+            {
+                "name": "Java",
+                "icon": "/stack/java.svg"
+            },
+            {
+                "name": "Python",
+                "icon": "/stack/python.svg"
+            },
+            {
+                "name": "SQL",
+                "icon": "/stack/sql.svg"
+            }
+        ]
+    }
+}

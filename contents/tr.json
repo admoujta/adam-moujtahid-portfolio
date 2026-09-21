@@ -1,0 +1,169 @@
+{
+    "about": {
+        "intro": "**Temiz ve sürdürülebilir sistemler** kurmaya odaklanan bir *Full Stack Geliştiriciyim*.",
+        "description": "Sürekli **yeni şeyler öğrenmeyi** seven, öğrendiklerini pratiğe dökmeye çalışan biriyim. *Web* ve *masaüstü* uygulamaları geliştiriyorum. Basit, **pratik** ve **sürdürülebilir** araçlarla uğraşmayı seviyorum.",
+        "full": "Selam, ben **Kintaro**; gerçek adım **Mustafa**. Son birkaç yıldır aktif olarak yazılımla uğraşıyorum ve bu süreçte kendimi büyük ölçüde kendi projelerim ve denemelerim üzerinden geliştirdim.\n\nAğırlıklı olarak web geliştirme tarafında çalışıyorum; *React*, *Next.js*, *Laravel*, *TailwindCSS*, *PostgreSQL* ve *MySQL* gibi teknolojileri kullanıyorum. Bunların yanında *WinForms*, *C#* ve *Rust* ile masaüstü uygulamaları, *FFmpeg* ve *yt-dlp* gibi araçlarla da çeşitli projeler geliştiriyorum.\n\nYeni bir teknoloji ya da araç gördüğümde genellikle denemeye başlıyorum; öğrenmeyi seven biriyim ve bu da beni sürekli farklı alanlara çekiyor.\n\nProjelerimin olabildiğince **temiz, anlaşılır ve sürdürülebilir** olmasına önem veriyorum. Bu konuda biraz **takıntılıyım**; bazen gereksiz olduğunu bilsem bile kendi işimi zorlaştırabiliyorum.\n\nŞu anki hedefim, özellikle **backend ve sistem tasarımı** alanında gelişmek ve projelerimi daha profesyonel hale getirmek. Bunun yanında kendi sistemlerimi, kütüphanelerimi ve basit, pratik araçlar üretmek istiyorum."
+    },
+    "manifesto": [
+        "RADICAL TRANSPARENCY",
+        "INTENTIONAL MINIMALISM",
+        "ARCHITECTURAL INTEGRITY",
+        "FIRST PRINCIPLES THINKING",
+        "PERFORMANCE WITHOUT COMPROMISE",
+        "SCALABLE VISION"
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "title": "E-commerce",
+            "category": "E-commerce platform",
+            "year": "2026",
+            "description": "An online commerce project focused on a clear shopping experience and practical product management.",
+            "image": "/projects/ecommerce.png",
+            "repo": "https://github.com/xkintaro/e-commerce",
+            "stack": [
+                "React",
+                "Node.js",
+                "MongoDB"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Portfolio V2",
+            "category": "Portfolio",
+            "year": "2026",
+            "description": "A second portfolio iteration focused on presenting projects, skills, and professional progress with a refined interface.",
+            "image": "/projects/portfolio-v2.png.png",
+            "repo": "https://github.com/xkintaro/portfolio-v2",
+            "stack": [
+                "Next.js",
+                "React",
+                "Tailwind CSS",
+                "Framer Motion"
+            ],
+            "demo": "https://portfolio-v2-tau-ochre.vercel.app/"
+        },
+        {
+            "id": "3",
+            "title": "Management Event",
+            "category": "Event management",
+            "year": "2026",
+            "description": "A management platform designed to organize event information and streamline event-related workflows.",
+            "image": "/projects/management-event.png",
+            "repo": "https://github.com/xkintaro/management-event",
+            "stack": [
+                "React",
+                "Node.js",
+                "MongoDB"
+            ]
+        },
+        {
+            "id": "4",
+            "title": "Portail Absence",
+            "category": "Attendance portal",
+            "year": "2026",
+            "description": "A portal for managing absence records and making attendance information easier to follow.",
+            "image": "/projects/portail-absence.png",
+            "repo": "https://github.com/xkintaro/portail-absence",
+            "stack": [
+                "React",
+                "Python",
+                "PostgreSQL"
+            ]
+        },
+        {
+            "id": "5",
+            "title": "Gestion Santé",
+            "category": "Health management",
+            "year": "2026",
+            "description": "A digital health management project designed to organize information and support clearer operational workflows.",
+            "image": "/projects/gestion-sante.png",
+            "repo": "https://github.com/xkintaro/gestion-sante",
+            "stack": [
+                "FastAPI",
+                "Python",
+                "PostgreSQL",
+                "React",
+                "Tailwind CSS"
+            ]
+        }
+    ],
+    "roadmap": [
+        {
+            "id": "01",
+            "year": "2023",
+            "title": "BACCALAUREATE",
+            "subtitle": "Physical Sciences",
+            "description": "Earned my Baccalaureate in Physical Sciences, building a strong foundation in mathematics, physics, analytical thinking, and problem solving.",
+            "stack": [
+                "PHYSICS",
+                "MATHEMATICS",
+                "SCIENCE"
+            ]
+        },
+        {
+            "id": "02",
+            "year": "2023",
+            "title": "JOINED EMSI",
+            "subtitle": "Computer Engineering & Networks",
+            "description": "Began my engineering journey at EMSI, focusing on computer science, software development, networking, systems, databases, and core engineering principles.",
+            "stack": [
+                "COMPUTER SCIENCE",
+                "NETWORKS",
+                "PROGRAMMING"
+            ]
+        },
+        {
+            "id": "03",
+            "year": "2023 — PRESENT",
+            "title": "ENGINEERING STUDIES",
+            "subtitle": "EMSI",
+            "description": "Continuing my engineering studies while strengthening my foundations in algorithms, programming, software development, databases, Linux environments, and computer systems.",
+            "stack": [
+                "C",
+                "PYTHON",
+                "LINUX",
+                "SQL",
+                "GIT"
+            ]
+        },
+        {
+            "id": "04",
+            "year": "THIRD YEAR",
+            "title": "SOFTWARE DEVELOPMENT INTERNSHIP",
+            "subtitle": "IRMA Services — 1 Month",
+            "description": "Completed a one-month internship at IRMA Services, gaining practical experience in a professional software development environment and applying academic knowledge to real-world projects.",
+            "stack": [
+                "SOFTWARE DEVELOPMENT",
+                "TEAMWORK",
+                "PROBLEM SOLVING"
+            ]
+        },
+        {
+            "id": "05",
+            "year": "CURRENT PATH",
+            "title": "BIG DATA & AI",
+            "subtitle": "Specialization",
+            "description": "Currently developing deeper expertise in Big Data and Artificial Intelligence, with a focus on data processing, databases, analytics, intelligent systems, and scalable software solutions.",
+            "stack": [
+                "PYTHON",
+                "SQL",
+                "BIG DATA",
+                "AI"
+            ]
+        },
+        {
+            "id": "06",
+            "year": "CAREER GOAL",
+            "title": "SOFTWARE ENGINEER",
+            "subtitle": "Software × Data × AI",
+            "description": "My goal is to become a Software Engineer capable of designing robust and scalable applications while combining strong software engineering principles with expertise in Big Data and Artificial Intelligence.",
+            "stack": [
+                "SOFTWARE ENGINEERING",
+                "DATA ENGINEERING",
+                "BIG DATA",
+                "ARTIFICIAL INTELLIGENCE"
+            ]
+        }
+    ]
+}
