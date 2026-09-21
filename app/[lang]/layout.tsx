@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Inter, Syne } from "next/font/google";
 import "../globals.css";
 import SmoothScroll from "@/providers/smooth-scroll-provider";
 import { ThemeProvider } from "@/providers/theme-provider";
@@ -11,16 +10,13 @@ import { isValidLocale } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 import { getDictionary, getContents, getSharedData } from "@/lib/loaders";
 
-const syne = Syne({ subsets: ["latin"], variable: "--font-syne" });
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-
 export const metadata: Metadata = {
   title: "Moujtahid Adam — Data & IA",
   description: "Portfolio de Moujtahid Adam, futur ingénieur logiciel spécialisé en Data et Intelligence Artificielle.",
 };
 
 export function generateStaticParams() {
-  return [{ lang: 'en' }, { lang: 'tr' }];
+  return [{ lang: 'en' }, { lang: 'fr' }];
 }
 
 export default async function LangLayout({
@@ -44,7 +40,7 @@ export default async function LangLayout({
 
   return (
     <html lang={lang} suppressHydrationWarning>
-      <body className={`${inter.variable} ${syne.variable} font-sans bg-background text-foreground antialiased`}>
+      <body className="font-sans bg-background text-foreground antialiased">
         <LanguageProvider lang={lang} dictionary={dictionary} contents={contents} shared={shared}>
           <ThemeProvider
             attribute="class"

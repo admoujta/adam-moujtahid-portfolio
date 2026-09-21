@@ -44,11 +44,11 @@ export default function LanguageSwitcher() {
                     </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild className="rounded-xl cursor-pointer my-0.5 focus:bg-secondary">
-                    <Link href={getLocalizedPath("tr")}>
+                    <Link href={getLocalizedPath("fr")}>
                         <span className={cn("mr-2 flex h-3.5 w-3.5 items-center justify-center")}>
-                            {language === "tr" && <Check className="h-3.5 w-3.5" />}
+                            {language === "fr" && <Check className="h-3.5 w-3.5" />}
                         </span>
-                        <span className="text-xs tracking-widest uppercase">Türkçe</span>
+                        <span className="text-xs tracking-widest uppercase">Français</span>
                     </Link>
                 </DropdownMenuItem>
             </DropdownMenuContent>

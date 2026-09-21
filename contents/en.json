@@ -20,7 +20,7 @@
             "year": "2026",
             "description": "An online commerce project focused on a clear shopping experience and practical product management.",
             "image": "/projects/ecommerce.png",
-            "repo": "https://github.com/xkintaro/e-commerce",
+            "repo": "https://github.com/admoujta/e-commerce",
             "stack": [
                 "React",
                 "Node.js",
@@ -34,7 +34,7 @@
             "year": "2026",
             "description": "A second portfolio iteration focused on presenting projects, skills, and professional progress with a refined interface.",
             "image": "/projects/portfolio-v2.png.png",
-            "repo": "https://github.com/xkintaro/portfolio-v2",
+            "repo": "https://github.com/admoujta/portfolio-v2",
             "stack": [
                 "Next.js",
                 "React",
@@ -50,7 +50,7 @@
             "year": "2026",
             "description": "A management platform designed to organize event information and streamline event-related workflows.",
             "image": "/projects/management-event.png",
-            "repo": "https://github.com/xkintaro/management-event",
+            "repo": "https://github.com/admoujta/management-event",
             "stack": [
                 "React",
                 "Node.js",
@@ -64,7 +64,7 @@
             "year": "2026",
             "description": "A portal for managing absence records and making attendance information easier to follow.",
             "image": "/projects/portail-absence.png",
-            "repo": "https://github.com/xkintaro/portail-absence",
+            "repo": "https://github.com/admoujta/portail-absence",
             "stack": [
                 "React",
                 "Python",
@@ -78,7 +78,7 @@
             "year": "2026",
             "description": "A digital health management project designed to organize information and support clearer operational workflows.",
             "image": "/projects/gestion-sante.png",
-            "repo": "https://github.com/xkintaro/gestion-sante",
+            "repo": "https://github.com/admoujta/gestion-sante",
             "stack": [
                 "FastAPI",
                 "Python",

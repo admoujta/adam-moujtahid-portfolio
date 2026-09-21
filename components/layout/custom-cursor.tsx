@@ -20,6 +20,7 @@ export function CustomCursor() {
     useEffect(() => {
         if (window.matchMedia("(pointer: coarse)").matches) return;
 
+        document.documentElement.classList.add("custom-cursor-enabled");
         document.documentElement.style.cursor = "none";
         
         const frameId = requestAnimationFrame(() => {
@@ -66,6 +67,7 @@ export function CustomCursor() {
 
         return () => {
             cancelAnimationFrame(frameId);
+            document.documentElement.classList.remove("custom-cursor-enabled");
             document.documentElement.style.cursor = "";
             window.removeEventListener("mousemove", moveCursor);
             window.removeEventListener("mouseover", handleMouseOver);
@@ -78,7 +80,7 @@ export function CustomCursor() {
 
     return (
         <motion.div
-            className="fixed top-0 left-0 pointer-events-none hidden md:flex items-center justify-center mix-blend-difference"
+            className="fixed top-0 left-0 pointer-events-none hidden md:flex items-center justify-center mix-blend-difference will-change-transform"
             style={{
                 x: cursorXSpring,
                 y: cursorYSpring,
@@ -91,21 +93,21 @@ export function CustomCursor() {
             <motion.div
                 className={cn(
                     "rounded-full flex items-center justify-center transition-colors duration-300",
-                    isHovering ? "bg-white" : "bg-transparent border border-white/50"
+                    isHovering ? "bg-white/15 border border-white/80" : "bg-transparent border border-white/55"
                 )}
                 animate={{
-                    width: isHovering ? 64 : 32,
-                    height: isHovering ? 64 : 32,
+                    width: isHovering ? 40 : 24,
+                    height: isHovering ? 40 : 24,
                 }}
-                transition={{ duration: 0.3, ease: "easeOut" }}
+                transition={{ duration: 0.18, ease: "easeOut" }}
             >
                 <motion.div
-                    className="w-1.5 h-1.5 rounded-full bg-white"
+                    className="h-1 w-1 rounded-full bg-white"
                     animate={{
-                        scale: isHovering ? 0 : 1,
-                        opacity: isHovering ? 0 : 1,
+                        scale: isHovering ? 1.15 : 1,
+                        opacity: 1,
                     }}
-                    transition={{ duration: 0.2 }}
+                    transition={{ duration: 0.18 }}
                 />
             </motion.div>
         </motion.div>

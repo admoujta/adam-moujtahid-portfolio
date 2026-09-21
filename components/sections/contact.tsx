@@ -43,7 +43,7 @@ export default function Contact() {
                         </a>
                     </BlurReveal>
                     <BlurReveal>
-                        <a href="https://github.com/xkintaro" target="_blank" rel="noopener noreferrer" className="group flex min-h-36 items-center gap-5 rounded-2xl border border-border/50 bg-card/30 p-5 transition-all duration-500 hover:bg-primary hover:text-primary-foreground sm:p-6">
+                        <a href={content.social.find((link) => link.label.toLowerCase() === "github")?.href || "https://github.com/admoujta"} target="_blank" rel="noopener noreferrer" className="group flex min-h-36 items-center gap-5 rounded-2xl border border-border/50 bg-card/30 p-5 transition-all duration-500 hover:bg-primary hover:text-primary-foreground sm:p-6">
                             <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-white/20 bg-white/10 text-white"><Github className="h-5 w-5" /></span>
                             <span className="flex-1"><span className="block text-[10px] font-mono tracking-widest uppercase text-muted-foreground group-hover:text-primary-foreground/70">Code</span><span className="mt-1 block text-lg font-semibold">GitHub</span></span>
                             <ArrowUpRight className="h-5 w-5 shrink-0 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />

@@ -1,0 +1,46 @@
+{
+    "nav": {
+        "home": "Accueil",
+        "about": "À propos",
+        "stack": "Compétences",
+        "projects": "Projets",
+        "roadmap": "Parcours",
+        "certifications": "Certifications",
+        "contact": "Contact"
+    },
+    "title": {
+        "about": "À propos",
+        "stack": "Compétences",
+        "projects": "Projets",
+        "roadmap": "Parcours",
+        "contact": "Contact"
+    },
+    "scrollDown": "Défiler",
+    "contactMe": "Me contacter",
+    "exploreProjects": "Voir les projets",
+    "readFullVersion": "Lire la présentation complète",
+    "frontendStack": "Développement frontend",
+    "backendStack": "Backend & APIs",
+    "databaseStack": "Données & bases de données",
+    "toolsStack": "Outils & infrastructure",
+    "projectsIntro": "A selection of projects and experiments around **software**, **data**, and **AI**.",
+    "projectsScrollText": "Scroll to explore",
+    "projectsEndText": "End",
+    "roadmapDescription": "Une chronologie de mon parcours en ingénierie, développement logiciel, Big Data et intelligence artificielle.",
+    "contactIntroText": "Une idée en Data/IA ou une collaboration ? Parlons-en.",
+    "sendEmail": "Envoyer un email",
+    "directLine": "Contact direct",
+    "allRightsReserved": "Tous droits réservés.",
+    "contactModalDescription": "Envoyez-moi un message et je vous répondrai dès que possible.",
+    "projectDetails": "Détails du projet",
+    "aboutProject": "À propos du projet",
+    "technologies": "Technologies",
+    "liveDemo": "Démo en ligne",
+    "sourceCode": "Code source",
+    "notFound": {
+        "title": "Page Not Found",
+        "description": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+        "goHome": "Back to Home"
+    },
+    "programmingStack": "Langages de programmation"
+}

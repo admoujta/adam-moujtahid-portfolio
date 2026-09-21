@@ -1,16 +1,16 @@
 {
     "about": {
-        "intro": "**Temiz ve sürdürülebilir sistemler** kurmaya odaklanan bir *Full Stack Geliştiriciyim*.",
-        "description": "Sürekli **yeni şeyler öğrenmeyi** seven, öğrendiklerini pratiğe dökmeye çalışan biriyim. *Web* ve *masaüstü* uygulamaları geliştiriyorum. Basit, **pratik** ve **sürdürülebilir** araçlarla uğraşmayı seviyorum.",
-        "full": "Selam, ben **Kintaro**; gerçek adım **Mustafa**. Son birkaç yıldır aktif olarak yazılımla uğraşıyorum ve bu süreçte kendimi büyük ölçüde kendi projelerim ve denemelerim üzerinden geliştirdim.\n\nAğırlıklı olarak web geliştirme tarafında çalışıyorum; *React*, *Next.js*, *Laravel*, *TailwindCSS*, *PostgreSQL* ve *MySQL* gibi teknolojileri kullanıyorum. Bunların yanında *WinForms*, *C#* ve *Rust* ile masaüstü uygulamaları, *FFmpeg* ve *yt-dlp* gibi araçlarla da çeşitli projeler geliştiriyorum.\n\nYeni bir teknoloji ya da araç gördüğümde genellikle denemeye başlıyorum; öğrenmeyi seven biriyim ve bu da beni sürekli farklı alanlara çekiyor.\n\nProjelerimin olabildiğince **temiz, anlaşılır ve sürdürülebilir** olmasına önem veriyorum. Bu konuda biraz **takıntılıyım**; bazen gereksiz olduğunu bilsem bile kendi işimi zorlaştırabiliyorum.\n\nŞu anki hedefim, özellikle **backend ve sistem tasarımı** alanında gelişmek ve projelerimi daha profesyonel hale getirmek. Bunun yanında kendi sistemlerimi, kütüphanelerimi ve basit, pratik araçlar üretmek istiyorum."
+        "intro": "I am **Moujtahid Adam**, a future *software engineer* specializing in **Data and Artificial Intelligence**.",
+        "description": "I build useful digital experiences with a focus on **data**, automation, and intelligent products. Curious and driven, I turn every new skill into a practical project.",
+        "full": "Hi, I am **Moujtahid Adam**, a future software engineer specializing in **Data and Artificial Intelligence**.\n\nI build modern web applications while developing my expertise in data science, machine learning, and intelligent systems. My goal is to create reliable, clear, and useful solutions that turn data into better decisions.\n\nI learn by building: understanding a problem, experimenting with a technology, and delivering a sustainable solution. I am especially interested in Python, SQL, data visualization, APIs, and applied AI."
     },
     "manifesto": [
-        "RADICAL TRANSPARENCY",
-        "INTENTIONAL MINIMALISM",
-        "ARCHITECTURAL INTEGRITY",
-        "FIRST PRINCIPLES THINKING",
-        "PERFORMANCE WITHOUT COMPROMISE",
-        "SCALABLE VISION"
+        "DATA-DRIVEN THINKING",
+        "INTELLIGENT SYSTEMS",
+        "CLEAN ARCHITECTURE",
+        "CONTINUOUS LEARNING",
+        "USEFUL AUTOMATION",
+        "RESPONSIBLE AI"
     ],
     "projects": [
         {
@@ -20,7 +20,7 @@
             "year": "2026",
             "description": "An online commerce project focused on a clear shopping experience and practical product management.",
             "image": "/projects/ecommerce.png",
-            "repo": "https://github.com/xkintaro/e-commerce",
+            "repo": "https://github.com/admoujta/e-commerce",
             "stack": [
                 "React",
                 "Node.js",
@@ -34,7 +34,7 @@
             "year": "2026",
             "description": "A second portfolio iteration focused on presenting projects, skills, and professional progress with a refined interface.",
             "image": "/projects/portfolio-v2.png.png",
-            "repo": "https://github.com/xkintaro/portfolio-v2",
+            "repo": "https://github.com/admoujta/portfolio-v2",
             "stack": [
                 "Next.js",
                 "React",
@@ -50,7 +50,7 @@
             "year": "2026",
             "description": "A management platform designed to organize event information and streamline event-related workflows.",
             "image": "/projects/management-event.png",
-            "repo": "https://github.com/xkintaro/management-event",
+            "repo": "https://github.com/admoujta/management-event",
             "stack": [
                 "React",
                 "Node.js",
@@ -64,7 +64,7 @@
             "year": "2026",
             "description": "A portal for managing absence records and making attendance information easier to follow.",
             "image": "/projects/portail-absence.png",
-            "repo": "https://github.com/xkintaro/portail-absence",
+            "repo": "https://github.com/admoujta/portail-absence",
             "stack": [
                 "React",
                 "Python",
@@ -78,7 +78,7 @@
             "year": "2026",
             "description": "A digital health management project designed to organize information and support clearer operational workflows.",
             "image": "/projects/gestion-sante.png",
-            "repo": "https://github.com/xkintaro/gestion-sante",
+            "repo": "https://github.com/admoujta/gestion-sante",
             "stack": [
                 "FastAPI",
                 "Python",
