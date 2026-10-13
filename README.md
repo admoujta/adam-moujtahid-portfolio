@@ -227,6 +227,8 @@ adam-moujtahid-portfolio/
 ├── lib/
 │
 ├── public/
+│   ├── profile/
+│   │   └── adam-moujtahid.jpg
 │   ├── projects/
 │   ├── stack/
 │   └── cv-moujtahid-adam.pdf
@@ -333,7 +335,7 @@ Useful, scalable and intelligent software
 
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/251885828?v=4" width="220" alt="Adam Moujtahid" />
+<img src="public/profile/adam-moujtahid.jpg" width="220" alt="Adam Moujtahid" />
 
 ### Adam Moujtahid
 
